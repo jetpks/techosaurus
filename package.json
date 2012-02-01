@@ -1,0 +1,24 @@
+{
+  "author": "AJ ONeal <ajoneal@spotterrf.com> (http://coolaj86.info/)",
+  "name": "mildoc",
+  "description": "The documentation generator used by milson.org",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/milson/mildoc.git"
+  },
+  "engines": {
+    "node": ">= 0.2"
+  },
+  "dependencies": {
+    "walk": "2.1.x",
+    "remedial": "1.0.7",
+    "highlight": "0.2.x",
+    "markdown": "0.3.x",
+    "yaml": "0.2.x",
+    "json2yaml": "1.x",
+    "forEachAsync": "2.x",
+    "connect": "~1.8.5"
+  },
+  "devDependencies": {}
+}

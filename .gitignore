@@ -1,0 +1,8 @@
+node_modules
+config.yml
+*.swp
+*.swo
+*.html
+documents.jade
+links.jade
+public/

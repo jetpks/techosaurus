@@ -1,0 +1,23 @@
+{
+  "author": "Eric Jacobs <eric@chomp.us> (http://techosaur.us/)",
+  "name": "techosaurus-browser",
+  "description": "browser deps for techosaurus.",
+  "version": "0.0.1",
+  "homepage": "http://techosaur.us/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/techosaurus/techosaurus.git"
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "browserDependencies": {
+    "bean": "0.4.x",
+    "bonzo": "0.9.x",
+    "domready": "0.2.x",
+    "forEachAsync": "2.x"
+  }
+}
