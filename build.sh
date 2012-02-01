@@ -4,6 +4,7 @@
 SRC_DIR=src/
 BLD_DIR=public/
 EXTENDED=custom.sh
+FINALJS=app.js
 #BLD_DIR=public/docs/latest
 
 if [ ! -e "node_modules" ]
@@ -50,9 +51,9 @@ mkdir -p "${SRC_DIR}/lib"
 mkdir -p "${SRC_DIR}/static"
 cd "${SRC_DIR}/"
   pakmanager build >/dev/null 2>/dev/null
-  uglifyjs pakmanaged.js > pakmanaged.min.js
+  uglifyjs pakmanaged.js > ${FINALJS}
   rm "pakmanaged.html"
-  mv pakmanaged.* "../${BLD_DIR}/"
+  mv ${FINALJS} "../${BLD_DIR}/"
 cd - > /dev/null
 
 if [ -x ${EXTENDED} ]
