@@ -1,14 +1,14 @@
 {
-  "author": "AJ ONeal <ajoneal@spotterrf.com> (http://coolaj86.info/)",
-  "name": "mildoc",
-  "description": "The documentation generator used by milson.org",
+  "author": "Eric Jacobs <eric@chomp.us> (http://techosaur.us/)",
+  "name": "techosaurus",
+  "description": "the website at techosaur.us",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/milson/mildoc.git"
+    "url": "git://github.com/techosaurus/techosaurus.git"
   },
   "engines": {
-    "node": ">= 0.2"
+    "node": ">= 0.4"
   },
   "dependencies": {
     "walk": "2.1.x",
